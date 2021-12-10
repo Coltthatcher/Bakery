@@ -9,7 +9,7 @@ namespace Bakery.Models
 
     public PastryCount(int pastryNumber)
     {
-      PastryNumber = 1;
+      PastryNumber = pastryNumber;
     }
   }
 }
