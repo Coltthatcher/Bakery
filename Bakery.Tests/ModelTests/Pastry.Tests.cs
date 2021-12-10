@@ -26,7 +26,16 @@ namespace Pastry.Tests
       Assert.AreEqual(cost, order);
 
     }
+
+    [TestMethod]
     
-    
+    public void Calculations_ReturnCost_int()
+    {
+      int PastryNumber = 3;
+      int cost = 5;
+      PastryCount newPastry = new PastryCount(PastryNumber);
+      int order = PastryCount.Calculations(PastryNumber);
+      Assert.AreEqual(cost, order);
+    }
   }
 }
