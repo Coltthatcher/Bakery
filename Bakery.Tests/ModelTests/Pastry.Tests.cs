@@ -64,7 +64,7 @@ namespace Pastry.Tests
     public void Calculations_Return_int4()
     {
       int PastryNumber = 6;
-      int cost = 9;
+      int cost = 7;
       PastryCount newPastry = new PastryCount(PastryNumber);
       int order = PastryCount.Calculations(PastryNumber);
       Assert.AreEqual(cost, order);

@@ -33,7 +33,7 @@ namespace Bakery.Models
       }
       else
       {
-        2 + pastryNumber + 2;
+        cost = pastryNumber + 1;
       }
       return cost;
     }
