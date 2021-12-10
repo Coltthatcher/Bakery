@@ -67,5 +67,5 @@ namespace Bread.Tests
       int order = BreadCount.Calculations(BreadNumber);
       Assert.AreEqual(cost, order);
     }
-}
+  }
 }

@@ -15,9 +15,10 @@ namespace Pastry.Tests
       int order = newPastry.PastryNumber;
       Assert.AreEqual(pastryNumber, order);
     }
+
+    [TestMethod]
+    public void Calculations_ReturnCost_Int();
+    
+    
   }
-
-
-
-
 }
