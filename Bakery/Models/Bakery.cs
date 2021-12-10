@@ -11,6 +11,11 @@ namespace Bakery.Models
       BreadNumber = breadNumber;
     }
 
+
+    public static int Calculations(int breadNumber)
+    {
+
+    }
   }
 
 
@@ -29,7 +34,19 @@ you need to have a variable for bread at $5
 you need a start value of 0 to start the price off 
 you need buy 2x get on 1x free 
 3x - 2x= x 15 - 
+int cost = 5;
+int a = numOfProductA();
+int b = numOfProductB();
+int total = a + b;
+int totalFree = total/3;
+int totalCost = (total - totalFree)*cost;
 a method to 
+
+if you buy 3 bread the price should be equal to 10 
+int breadNumber = 3 
+int cost - 10
+int for freeBread
+
 
 
 */
