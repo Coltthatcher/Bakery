@@ -8,7 +8,7 @@ namespace Bakery.Models
 
     public BreadCount(int breadNumber)
     {
-      BreadNumber = BreadNumber;
+      BreadNumber = 1;
     }
 
   }
