@@ -31,6 +31,10 @@ namespace Bakery.Models
       {
         cost = 9;
       }
+      else
+      {
+        2 + pastryNumber + 2;
+      }
       return cost;
     }
   }
