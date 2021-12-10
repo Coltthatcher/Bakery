@@ -57,5 +57,15 @@ namespace Bakery.Tests
       int order = BreadCount.Calculations(BreadNumber);
       Assert.AreEqual(cost, order);
     }
+
+    [TestMethod]
+    public void Calculations_ReturnCost_int4()
+    {
+      int BreadNumber = 7;
+      int cost = 25;
+      BreadCount newBread = new BreadCount(BreadNumber);
+      int order = BreadCount.Calculations(BreadNumber);
+      Assert.AreEqual(cost, order);
+    }
 }
 }
