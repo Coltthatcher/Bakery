@@ -14,7 +14,13 @@ namespace Bakery.Models
 
     public static int Calculations(int breadNumber)
     {
-      return 5;
+      int cost = 0;
+      int freeBread = breadNumber / 3;
+      if (breadNumber < 2)
+      {
+        cost = breadNumber * 5;
+      }
+      return 10;
     }
   }
 
