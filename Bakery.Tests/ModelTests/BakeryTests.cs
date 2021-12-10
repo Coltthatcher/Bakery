@@ -4,10 +4,17 @@ using Bakery.Models;
 namespace Bakery.Tests
 {
   [TestClass]
-  public class ItemTests
+  public class BreadTests
   {
 
-    // Test methods will go here.
+    [TestMethod]
+    public void BreadCount_CreatesInstanceOfItem_Item()
+    {
+      int breadCount = 0;
+      breadCount newBread = newBread(breadCount);
+      int order = newBread.BreadNumber;
+      Assert.AreEqual(BreadAmount)
+    }
 
   }
 }
