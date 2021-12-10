@@ -15,10 +15,11 @@ namespace Bakery.Models
     public static int Calculations(int pastryNumber)
     {
       int cost = 0;
-      if (pastryAmount < 3)
+      if (pastryNumber < 3)
       {
         cost = pastryNumber * 2;
       }
+      return cost;
     }
   }
 }
