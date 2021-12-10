@@ -1,12 +1,15 @@
 using System.Collections.Generic;
 namespace Bakery.Models
 {
-  public class BreadAmount
+  public class BreadCount
   {
 
     public int BreadNumber {get; set;}
 
-    public BreadCount()
+    public BreadCount(int breadCount)
+    {
+      BreadNumber = BreadNumber;
+    }
 
   }
 

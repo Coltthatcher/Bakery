@@ -13,7 +13,7 @@ namespace Bakery.Tests
       int breadCount = 0;
       breadCount newBread = newBread(breadCount);
       int order = newBread.BreadNumber;
-      Assert.AreEqual(BreadAmount)
+      Assert.AreEqual(breadCount, order);
     }
 
   }
