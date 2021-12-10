@@ -10,10 +10,10 @@ namespace Bakery.Tests
     [TestMethod]
     public void BreadCount_CreatesInstanceOfItem_Item()
     {
-      int breadCount = 0;
-      breadCount newBread = newBread(breadCount);
+      int breadNumber = 0;
+      BreadCount newBread = new BreadCount(breadNumber);
       int order = newBread.BreadNumber;
-      Assert.AreEqual(breadCount, order);
+      Assert.AreEqual(breadNumber, order);
     }
 
   }

@@ -6,7 +6,7 @@ namespace Bakery.Models
 
     public int BreadNumber {get; set;}
 
-    public BreadCount(int breadCount)
+    public BreadCount(int breadNumber)
     {
       BreadNumber = BreadNumber;
     }
