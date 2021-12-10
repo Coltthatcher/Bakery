@@ -20,7 +20,11 @@ namespace Bakery.Models
       {
         cost = breadNumber * 5;
       }
-      return 10;
+      else 
+      {
+        cost = (breadNumber - freeBread)* 5;
+      }
+      return 25;
     }
   }
 

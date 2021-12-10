@@ -28,7 +28,7 @@ namespace Bakery.Tests
     }
 
     [TestMethod]
-    public void Calculations_ReturnCost_Int()
+    public void Calculations_ReturnCost_Int1()
     {
       int BreadNumber = 6;
       int cost = 20;
