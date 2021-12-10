@@ -1,7 +1,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using ToDoList.Models;
+using Bakery.Models;
 
-namespace ToDoList.Tests
+namespace Bakery.Tests
 {
   [TestClass]
   public class ItemTests
