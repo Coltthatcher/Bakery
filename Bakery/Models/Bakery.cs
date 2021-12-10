@@ -14,7 +14,7 @@ namespace Bakery.Models
 
     public static int Calculations(int breadNumber)
     {
-
+      return 5;
     }
   }
 
