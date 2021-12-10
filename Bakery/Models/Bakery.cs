@@ -16,7 +16,7 @@ namespace Bakery.Models
     {
       int cost = 0;
       int freeBread = breadNumber / 3;
-     // int remainder = breadNumber % 3;
+      int remainder = breadNumber % 3;
       if (breadNumber < 2)
       {
         cost = breadNumber * 5;
