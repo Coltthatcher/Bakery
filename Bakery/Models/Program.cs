@@ -24,7 +24,7 @@ public class Program
         int BreadResult = BreadCount.Calculations(newBreadCount.BreadNumber);
         Console.WriteLine(BreadResult+ PastryResult);
       }
-      else if (order = "P")
+      else if (order == "P")
       {
         Console.WriteLine("How Many?");
         int Pastry = int.Parse(Console.ReadLine());
@@ -33,6 +33,20 @@ public class Program
         int PastryResult = PastryCount.Calculations(newPastryCount.PastryNumber);
         Console.WriteLine(PastryResult);
       }
+      else if (order == "B")
+      {
+        Console.WriteLine("How Many?");
+        int Loaf = int.Parse(Console.ReadLine());
+        Console.WriteLine("Your total is");
+        BreadCount newBreadCount = new BreadCount(Loaf);
+        int BreadResult = BreadCount.Calculations(newBreadCount.BreadNumber);
+        Console.WriteLine(BreadResult);
+      }
+      else
+      {
+        Console.WriteLine("Something went wrong! Please try again, make sure you enter 'B' or 'P'");
+        Main();
+      }
 
 
       }
@@ -40,4 +54,3 @@ public class Program
 
     }
   }
-}
