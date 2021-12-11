@@ -23,6 +23,16 @@ public class Program
         BreadCount newBreadCount = new BreadCount(Loaf);
         int BreadResult = BreadCount.Calculations(newBreadCount.BreadNumber);
         Console.WriteLine(BreadResult+ PastryResult);
+      }
+      else if (order = "P")
+      {
+        Console.WriteLine("How Many?");
+        int Pastry = int.Parse(Console.ReadLine());
+        Console.WriteLine("Your total is");
+        PastryCount newPastryCount = new PastryCount(Pastry);
+        int PastryResult = PastryCount.Calculations(newPastryCount.PastryNumber);
+        Console.WriteLine(PastryResult);
+      }
 
 
       }
