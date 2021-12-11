@@ -19,7 +19,8 @@ public class Program
         int Pastry = int.Parse(Console.ReadLine());
         Console.WriteLine("The order total is!");
         PastryCount newPastryCount = new PastryCount(Pastry);
-        
+        int PastryResult = PastryCount.Calculations(newPastryCount)
+
 
       }
       
