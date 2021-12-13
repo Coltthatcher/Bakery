@@ -6,31 +6,21 @@
 
 ## Technologies Used
 
-* _HTML_
-* _CSS_
-* _Bootstrap_
-* _Javascript_
-* _jQuery_
-* _webpack_
-* _npm_
-* _Jest_
-* _APIKEYS_
+
+* _C#_
+* _dotnet_
 
 
 ## Description
 
-_This application is a currency exchange from US to any chosen currency listed from the API website. it was a show of my knowledge gained from API_KEYS during the weeks curriculum._
+_This application is show of TDD with the C# language_
 
 ## Setup/Installation Requirements
 
 * _Clone the GitHub [repository]() or download and open the Zip on your local machine.
-* _From the project directory, run `npm install` in the terminal to load necessary plugins and packages._
-* _Run `npm run start` to start the application._
-* run `npm run build` and open dist/index.html in your preferred browser._
+* _From the project directory, run `dotnet restore` in the terminal to load necessary plugins and packages._
+* _Run `dotnet test`  from the bakery folder to start the tests._
 
-* _To get an API key for Currencies, first sign up for an account [here](https://www.exchangerate-api.com/). Once you are signed in, click on the API keys tab in your account. Copy the Default key that the API provides._
-* _In the terminal from the project directory run `touch .env` to create an environment file._
-* _Open .env in your preferred editor and insert `API_KEY=` followed by the API key you copied._
 
 
 
