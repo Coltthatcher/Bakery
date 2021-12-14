@@ -2,13 +2,16 @@
 
 #### Created By _**Colton Thatcher**_
 
-#### _Currency exchange rate_
+#### _French Bakery_
 
 ## Technologies Used
 
 
 * _C#_
 * _dotnet_
+* _VSCODE_
+* _GITBASH_
+* _GITHUB_
 
 
 ## Description
